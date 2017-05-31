@@ -12,10 +12,11 @@
  * @author user
  */
 
-class Kodea_Thierry_IndexController extends Mage_Core_Controller_Front_Action
+class Kodea_Thierry_ComprisController extends Mage_Core_Controller_Front_Action
 {
-   public function indexAction()
+   public function lesroutesAction()
    {
-     echo 'test index' ;
+     $this->loadLayout();
+     $this->renderLayout();
    }
 }

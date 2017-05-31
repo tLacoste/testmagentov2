@@ -33,21 +33,21 @@
     </modules>
     <frontend>
         <routers>
-            <routeurfrontend>
+            <routeurcamarche>
                 <use>standard</use>
                 <args>
                     <module>Kodea_Thierry</module>
-                    <frontName>testons</frontName>
+                    <frontName>jai</frontName>
                 </args>
-            </routeurfrontend>
+            </routeurcamarche>
         </routers>
-    </frontend>
-    <global>
-        <models>
-            <Kodea_Thierry>
-                <class>Kodea_Thierry_Model</class>
-            </Kodea_Thierry>
-        </models>
+        <layout>
+            <updates>
+                <kodea_thierry>
+                    <file>kodea_thierry.xml</file>
+                </kodea_thierry>
+            </updates>
+        </layout>
         <events>
             <catalog_product_type_prepare_full_options>
                 <observers>
@@ -68,5 +68,17 @@
                 </observers>
             </checkout_cart_product_add_after>-->
         </events>
+    </frontend>
+    <global>
+        <models>
+            <Kodea_Thierry><!-- ATTENTION AUX MAJUSCULES -->
+                <class>Kodea_Thierry_Model</class>
+            </Kodea_Thierry>
+        </models>
+        <blocks>
+            <kodea_thierry><!-- ATTENTION AUX MINUSCULES -->
+                <class>Kodea_Thierry_Block</class>
+            </kodea_thierry>
+        </blocks>
     </global>
 </config>
