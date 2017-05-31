@@ -58,7 +58,7 @@
                     </Kodea_Thierry_Model_Observer>
                 </observers>
             </catalog_product_type_prepare_full_options>
-<!--            <checkout_cart_product_add_after>
+            <!--            <checkout_cart_product_add_after>
                 <observers>
                     <Kodea_Thierry_Model_Observer>
                         <type>singleton</type>
@@ -80,5 +80,12 @@
                 <class>Kodea_Thierry_Block</class>
             </kodea_thierry>
         </blocks>
+        <resources>
+            <kodea_thierry_setup>
+                <setup>
+                    <module>Kodea_Thierry</module>
+                </setup>
+            </kodea_thierry_setup>
+        </resources>
     </global>
 </config>
