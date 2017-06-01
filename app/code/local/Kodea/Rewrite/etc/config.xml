@@ -44,14 +44,14 @@
     </frontend>
     <global>
         <models>
-            <Kodea_Rewrite><!-- ATTENTION AUX MAJUSCULES -->
+            <kodea_rewrite><!-- ATTENTION AUX MAJUSCULES -->
                 <class>Kodea_Rewrite_Model</class>
-            </Kodea_Rewrite>
-            <mage_customer>
+            </kodea_rewrite>
+            <customer>
                 <rewrite>
-                    <Customer>Kodea_Rewrite_Model_Customer</Customer>
+                    <customer>Kodea_Rewrite_Model_Customer</customer>
                 </rewrite>
-            </mage_customer>
+            </customer>
         </models>
         <blocks>
             <kodea_rewrite><!-- ATTENTION AUX MINUSCULES -->
