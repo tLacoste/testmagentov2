@@ -31,5 +31,11 @@ class Kodea_Thierry_Model_Observer {
                 $observer->getBuyRequest()->setQty($qty*2);
         }
     }
+    
+    public function salesQuoteItemSetCustomAttribute($observer) {
+        $quoteItem = $observer->getQuoteItem();
+        $product = $observer->getProduct();
+        $quoteItem->setProductCoulor($product->getProductCoulor());
+    }
 
 }
