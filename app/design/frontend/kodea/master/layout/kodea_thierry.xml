@@ -6,7 +6,7 @@
 
       <routeurcamarche_compris_lesroutes>
            <reference name="content">
-                <block type="kodea_thierry/CaMarche"  name="afficher_monbloc" template="jappelle/cetemplate.phtml" />
+                <block type="kodea_thierry/Camarche"  name="afficher_monbloc" template="jappelle/cetemplate.phtml" />
            </reference>
       </routeurcamarche_compris_lesroutes>
 </layout>
